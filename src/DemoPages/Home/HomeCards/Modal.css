@@ -1,0 +1,12 @@
+.img {
+  z-index: 1;
+  position: fixed;
+  /* margin-top: 60vh; */
+  cursor: pointer;
+  bottom: 1%;
+  right: 2.5%;
+  /* float: right !important; */
+}
+.modal {
+  margin-top: 15vh;
+}
