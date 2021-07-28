@@ -54,7 +54,7 @@ const useStyles = makeStyles((theme) => ({
   },
   schoolPaymentStatus2: {
     height: 80,
-    width: 175,
+    width: 305,
     backgroundColor: "#2A8FFF",
     borderRadius: 8,
     marginRight: 10,
@@ -70,6 +70,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: 30,
     textDecoration: "none",
     marginLeft: 10,
+    width:"100%"
   },
   heading: {
     color: "black",
@@ -120,9 +121,7 @@ const useStyles = makeStyles((theme) => ({
     width: 200,
     height: 80,
     backgroundColor: "white",
-    display: "flex",
-    // flexDirection: "column",
-    justifyContent: "flex-start",
+
     alignContent: "center",
     alignItems: "center",
     borderRadius: 9,
@@ -153,12 +152,12 @@ function HomeCards(props) {
         <div
           style={{
             display: "flex",
-            justifyContent: "flex-start",
+            // justifyContent: "flex-start",
             flexDirection: "column",
           }}
         >
-          <Row className="m-3">
-            <div style={{ position: "relative", top: 5, left: 30 }}>
+          <Row className="m-2">
+            <div style={{ position: "relative", top: 5 }}>
               <p>Finances</p>
             </div>
           </Row>
@@ -179,7 +178,7 @@ function HomeCards(props) {
                   </p>
                 </div>
                 <div className={classes.upperCardlowerButton}>
-                  <div style={{ alignItems: "center", alignContent: "center",textAlign:"center" }}>
+                  <div style={{position:"relative",top:10, alignContent: "center",textAlign:"center"}}>
                     <p style={{ textAlign: "center", color: "white" }}>EURO</p>
                   </div>
                 </div>
@@ -294,7 +293,7 @@ function HomeCards(props) {
                   className={`text-left ${classes.heading}`}
                 >
                   {" "}
-                  Job Seekers signed
+                  Total Jobs
                 </p>
 
                 <h3
@@ -322,7 +321,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -351,7 +350,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -380,7 +379,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -414,7 +413,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -443,7 +442,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -472,7 +471,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -501,7 +500,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -536,7 +535,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -565,7 +564,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -594,7 +593,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
@@ -623,7 +622,7 @@ function HomeCards(props) {
                     className={`text-left ${classes.heading}`}
                   >
                     {" "}
-                    Job Seekers signed
+                    Total Jobs
                   </p>
                 </div>
 
